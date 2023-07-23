@@ -1,0 +1,235 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.header{
+	height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/fondo7.jpg);
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 115%;
+}
+/*navbar*/
+.list-group{
+	--bs-list-group-bg: transparent;
+}
+.list-group-item:hover{
+	background-image: radial-gradient(circle at 54.37% 99.98%, #ff7e77 0, #ff6672 25%, #f94669 50%, #e61862 75%, #d60061 100%);
+}
+.navbar-brand img{
+	width: 200px;
+}
+/*Barra de navegación - Pagina index*/
+.fa-user-xmark{
+	cursor: pointer;
+	z-index: 1000; 
+}
+.nav-link{
+	font-weight: bold;
+	color: #fff;
+}
+/*Barra de navegación - Pagina index-Admin*/
+.p-admin{
+	font-size: 35px;
+	color: #fff;
+	margin: auto;
+}
+/*Presentacion*/
+.presentacion-login{
+    font-family: 'Shadows Into Light', cursive;
+    color: white;
+    background: rgba(0, 0, 0, 0.063);
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.968);
+}
+.welcome{
+	font-size: 70px;
+}
+.preg{
+	font-size: 40px;
+}
+.btn{
+	color:white;
+}
+.btn-login:hover{
+	background-image: radial-gradient(circle at 54.37% 99.98%, #ff7e77 0, #ff6672 25%, #f94669 50%, #e61862 75%, #d60061 100%);
+}
+/*Modal*/
+.login p{
+	font-size: 13px;
+}
+.nota{
+	color:red;
+	font-weight: bold;
+}
+.usuario{
+	font-weight: bold;
+}
+.modal-footer .ingresar, .modal-footer .ingresar:hover {
+	background-image: radial-gradient(circle at 54.37% 99.98%, #ff7e77 0, #ff6672 25%, #f94669 50%, #e61862 75%, #d60061 100%);
+	color:white;
+}
+
+/*Index*/
+.fondo{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/fondo.jpeg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	overflow-x:hidden;
+}
+.banner{
+	width: 100%;
+	height: 40rem;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/banner1.jpeg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	border-bottom-right-radius: 5%;
+	border-bottom-left-radius: 5%;
+	border-bottom: 3px solid #000;
+}
+/*Nombre*/
+.contenido-banner{
+	display: flex;
+	flex-direction: column;
+	background: rgba(0, 0, 0, 0.063);
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.596);
+}
+.contenido-banner h1{
+	text-align: center;
+}
+.contenido-banner h3{
+	text-align: center;
+}
+.contenido-banner h1,  .contenido-banner h3{
+	font-family: 'Shadows Into Light', cursive;
+	color:white;
+}
+.contenido-banner h1{
+	font-size: 50px;
+}
+.contenido-banner h3{
+	font-size: 35px
+}
+/*Foto de perfil*/
+.presentacion{
+  	display: flex;
+  	flex-direction: column;
+}
+.img{
+	display: flex;
+  	flex-direction: column;
+  	align-self: center;
+}
+.foto{
+	align-self: center;
+	position: absolute;
+	top: 35%;
+	width: 200px;
+	height: 200px;
+	border: 2px solid #000;
+}
+/*CAJA*/
+.caja{
+	margin: auto;
+	width: 85%;
+	color: white;
+	background:rgba(0,0,0,0.8);
+}
+.p-acerca{
+	margin-right: 10%;
+	margin-left: 10%;
+	font-family: 'Indie Flower', cursive;
+	font-size: 23px;
+}
+.proyectos{
+	margin-right: 10%;
+	margin-left: 10%;
+}
+#Portafolio{
+	font-family: 'Tangerine', cursive;
+	font-size: 70px;
+}
+.card-body p, .card-body h5{
+	color: #000;
+}
+.h2-index{
+	font-family: 'Tangerine', cursive;
+	font-size: 70px;
+}
+.p-email{
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 20px;;
+}
+/* Pagina index-Admin*/
+.proyectos-admin{
+ 	margin-right: 10%;
+ 	margin-left: 10%;
+}
+.li-admin:hover{
+	color: #007d9d;
+}
+.h1-admin{
+	font-family: 'Bangers', cursive;
+}
+.titulo-admin{
+	font-size: 20px;
+}
+.datos-proyec{
+	background-color: rgba(13, 105, 106, 0.744);
+	font-family: 'Bad Script', cursive;
+	font-weight: bold;
+}
+.btn-datos{
+	background-color: #0f4b52;
+}
+.btn-datos:hover{
+	background-color: #0f4b52;
+	color:#fff;
+}
+.card-mobile{
+	font-family: 'Yuji Boku', serif;
+}
+.tabla-datos{
+	background-color: #158f9ca3;
+	font-family: 'Bad Script', cursive;
+	font-weight: bold;
+}
+.tabla__galeria{
+	background-color: #0f4b52ad;
+}
+.btn-modificar, .btn-modificar:hover{
+	background: #ffed84;
+	color:#000;
+	font-family: 'Bad Script', cursive;
+	font-weight: bold;
+}
+.btn-eliminar, .btn-eliminar:hover{
+	background: #da001e;
+	color:#000;
+	font-family: 'Bad Script', cursive;
+	font-weight: bold;
+}
+.modificar-proyec{
+	background: #1a79838a;
+	font-family: 'Bad Script', cursive;
+	font-weight: bold;
+}
+/*Footer*/
+.otros_medios{
+	font-weight: bold;
+}
+.footer{
+	font-weight: bold;
+}
+@media screen and (max-width: 800px) {
+ 
+	.tabla{
+	  width: 80%!important;
+	  font-size: 0.8em!important;
+	  background-color: #fcbbff!important;
+	}
+  }
